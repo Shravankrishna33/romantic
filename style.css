@@ -1,0 +1,63 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #ffe4ec, #ffe0f0);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #4d004d;
+}
+
+header, footer {
+  background: #ffb6c1;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+section {
+  margin: 30px;
+}
+
+video {
+  margin: 10px;
+  border: 2px solid #f08080;
+  border-radius: 12px;
+}
+
+.letter {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  background: #fff0f5;
+  border-radius: 15px;
+}
+
+.letter img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.affirmation {
+  animation: fadeIn 3s ease-in-out infinite alternate;
+  font-size: 24px;
+  margin: 10px 0;
+  color: #cc3366;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1.1); }
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
